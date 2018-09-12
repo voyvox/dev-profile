@@ -11,8 +11,10 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var profilePhoto: UIImageView!
+    @IBOutlet weak var customizeBtn: UIButton!
     override func viewDidLoad() {
-        profilePhoto.layer.cornerRadius = 8.0
+        profilePhoto.layer.cornerRadius = 12.0
+        customizeBtn.layer.cornerRadius = 12.0
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
